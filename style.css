@@ -1,14 +1,63 @@
 * {
     text-align: center;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
 .indexbody{
     background-color: rgba(80, 78, 78, 0.744);
 }
 
-h2{
+.main-index{
     background-image: linear-gradient(0deg, red, yellow);
     background-clip: text;
     color: transparent;
     border-top: 4px solid black;
+}
+
+.btn{
+    background-color: #ff5e00;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: underline;
+    display: inline-block; /* dont really understand but it fixes it? */
+    font-size: 20px;
+    border-radius: 60% 20% / 50% 40%;
+    border: 2px solid rgb(83, 47, 0);
+}
+
+.btn.classic:hover{
+    background-color: rgb(250, 188, 74);
+}
+
+.btn.fromage:hover{
+    background-color: rgb(243, 51, 51);
+}
+
+.btn.marg:hover{
+    background-color: rgb(161, 51, 0);
+}
+
+.btn:active {
+    background-color: black;
+    transform: translateY(4px); /* is this why when i click a link sometimes it doesn't actually go to the page and i have to click again?*/
+}
+
+#margidbody{
+    background-image: linear-gradient(90deg, darkred, red, darkred)
+}
+
+.index-button.m{
+    padding: 1000px 1000px;
+}
+
+.index-button{
+    padding: 15px 15px;
+}
+
+.bodyfromage{
+    background-image: linear-gradient(90deg, green, white, red);
+}
+
+.bodyclassic{
+    background-image: linear-gradient(to right,red, white, blue);
 }
